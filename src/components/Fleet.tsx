@@ -34,7 +34,7 @@ const Fleet: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {vehicles.map((vehicle, index) => (
             <div key={index} className="bg-gray-900 rounded-xl overflow-hidden hover:shadow-2xl transition-shadow">
-              <div className="h-48 bg-gray-700 overflow-hidden">
+              <div className="bg-gray-700 overflow-hidden aspect-video">
                 <img 
                   src={vehicle.image} 
                   alt={vehicle.name}
