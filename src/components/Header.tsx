@@ -27,12 +27,12 @@ const Header: React.FC<HeaderProps> = ({ onWhatsAppClick, onPhoneClick }) => {
           {/* Réseaux sociaux et contact */}
           <div className="flex items-center space-x-2 sm:space-x-4">
             {/* Réseaux sociaux */}
-            <div className="hidden lg:flex items-center space-x-3">
+            <div className="flex items-center space-x-2 sm:space-x-3">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Facebook size={20} />
+                <Facebook size={18} className="sm:w-5 sm:h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
-                <Instagram size={20} />
+                <Instagram size={18} className="sm:w-5 sm:h-5" />
               </a>
             </div>
 
