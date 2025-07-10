@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <img 
                 src="/logo_vtc_val.png" 
                 alt="VTC Valenciennes" 
-                className="h-10 w-auto"
+                className="h-28 w-auto"
               />
               <div>
                 <h3 className="text-xl font-bold">VTC-Valenciennes</h3>
@@ -72,15 +72,12 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
-                <Linkedin size={20} />
-              </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 VTC-Valenciennes. Tous droits réservés.</p>
+          <p>&copy; 2025 VTC-Valenciennes. Tous droits réservés.</p>
           <p className="text-sm mt-2">Transport de personnes - Licence VTC</p>
         </div>
       </div>

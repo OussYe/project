@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ onWhatsAppClick, onPhoneClick }) => {
             <img 
               src="/logo_vtc_val.png" 
               alt="VTC Valenciennes" 
-              className="h-20 w-auto"
+              className="h-28 w-auto"
             />
             <div>
               <h1 className="text-xl font-bold text-white">VTC-Valenciennes</h1>
@@ -33,9 +33,6 @@ const Header: React.FC<HeaderProps> = ({ onWhatsAppClick, onPhoneClick }) => {
               </a>
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
-                <Linkedin size={20} />
               </a>
             </div>
 

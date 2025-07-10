@@ -7,13 +7,13 @@ const Services: React.FC = () => {
       icon: Plane,
       title: "Transport aéroport",
       description: "Trajets vers les aéroports de Lille, Paris, Bruxelles",
-      features: ["Suivi de vol", "Attente gratuite", "Prise en charge à domicile"],
+      features: ["Suivi de vol", "Attente gratuite jusqu'à 15 min", "Prise en charge à domicile"],
       color: "bg-blue-600"
     },
     {
       icon: MapPin,
       title: "Déplacements privés",
-      description: "Point A à B jusqu'à 2h autour de Valenciennes",
+      description: "Jusqu'à 2h autour de Valenciennes",
       features: ["Trajet personnalisé", "Confort garanti", "Tarification transparente"],
       color: "bg-green-600"
     },
