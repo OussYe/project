@@ -50,29 +50,27 @@ const About: React.FC = () => {
                   ou encore accompagnement touristique.
                 </p>
                 <p>
-                  Notre zone d'intervention couvre un rayon de 2 heures autour de Valenciennes, 
-                  vous permettant de rejoindre facilement les grandes métropoles du Nord et de Belgique.
+                  Notre service couvre toutes destinations, vous permettant de rejoindre 
+                  facilement n'importe quelle destination selon vos besoins.
                 </p>
               </div>
             </div>
-            <div className="bg-gray-900 rounded-xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center">Zone d'intervention</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center py-2 border-b border-gray-700">
-                  <span>Valenciennes - Lille</span>
-                  <span className="text-amber-500 font-semibold">45 min</span>
+            <div className="bg-gray-900 rounded-xl p-8 text-center">
+              <h3 className="text-2xl font-bold mb-6">Service disponible</h3>
+              <div className="space-y-6">
+                <div>
+                  <div className="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <MapPin className="text-gray-900" size={32} />
+                  </div>
+                  <h4 className="text-xl font-semibold mb-2">Toutes destinations</h4>
+                  <p className="text-gray-300">Nous vous conduisons partout où vous souhaitez aller</p>
                 </div>
-                <div className="flex justify-between items-center py-2 border-b border-gray-700">
-                  <span>Valenciennes - Bruxelles</span>
-                  <span className="text-amber-500 font-semibold">1h 15min</span>
-                </div>
-                <div className="flex justify-between items-center py-2 border-b border-gray-700">
-                  <span>Valenciennes - Paris</span>
-                  <span className="text-amber-500 font-semibold">2h</span>
-                </div>
-                <div className="flex justify-between items-center py-2">
-                  <span>Aéroport Charles de Gaulle</span>
-                  <span className="text-amber-500 font-semibold">2h 30min</span>
+                <div>
+                  <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Clock className="text-white" size={32} />
+                  </div>
+                  <h4 className="text-xl font-semibold mb-2">Service 7/7 24/24</h4>
+                  <p className="text-gray-300">Disponible à tout moment pour vos déplacements</p>
                 </div>
               </div>
             </div>

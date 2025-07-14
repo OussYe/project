@@ -51,18 +51,18 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="mt-16 bg-gray-800 rounded-xl p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">Horaires de disponibilité</h3>
+          <h3 className="text-2xl font-bold mb-4">Disponibilité</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <Clock className="mx-auto mb-4" size={32} />
               <h4 className="text-lg font-semibold mb-2">Service client</h4>
-              <p className="text-gray-300">Lundi - Vendredi : 8h - 20h</p>
-              <p className="text-gray-300">Weekend : 9h - 18h</p>
+              <p className="text-gray-300">7 jours sur 7</p>
+              <p className="text-gray-300">24 heures sur 24</p>
             </div>
             <div>
               <Phone className="mx-auto mb-4" size={32} />
               <h4 className="text-lg font-semibold mb-2">Réservations</h4>
-              <p className="text-gray-300">Disponible 24h/24</p>
+              <p className="text-gray-300">24 heures sur 24</p>
               <p className="text-gray-300">7 jours sur 7</p>
             </div>
           </div>

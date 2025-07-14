@@ -47,7 +47,7 @@ const Hero: React.FC<HeroProps> = ({ onBookingClick, onServicesClick }) => {
                 <MapPin className="text-gray-900" size={32} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Zone d'intervention</h3>
-              <p className="text-gray-400">Jusqu'à 2h autour de Valenciennes</p>
+              <p className="text-gray-400">Toutes destinations</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
