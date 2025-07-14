@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Clock, Shield, Users } from 'lucide-react';
+import { Award, Clock, Shield, Users, MapPin } from 'lucide-react';
 
 const About: React.FC = () => {
   const values = [
