@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="/logo_vtc_val.png" 
-                alt="VTC Valenciennes" 
+                alt="Presta-Val-VTC" 
                 className="h-28 w-auto"
               />
               <div>
-                <h3 className="text-xl font-bold">VTC-Valenciennes</h3>
+                <h3 className="text-xl font-bold">Presta-Val-VTC</h3>
                 <p className="text-sm text-gray-400">Transport premium</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 VTC-Valenciennes. Tous droits réservés.</p>
+          <p>&copy; 2025 Presta-Val-VTC. Tous droits réservés.</p>
           <p className="text-sm mt-2">Transport de personnes - Licence VTC</p>
         </div>
       </div>

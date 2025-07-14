@@ -12,7 +12,7 @@ import WhatsAppFloat from './components/WhatsAppFloat';
 
 function App() {
   const handleWhatsAppClick = () => {
-    const message = "Bonjour, je souhaite réserver un transport avec VTC-Valenciennes.";
+    const message = "Bonjour, je souhaite réserver un transport avec Presta-Val-VTC.";
     const whatsappUrl = `https://wa.me/33681833529?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };

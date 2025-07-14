@@ -15,11 +15,11 @@ const Header: React.FC<HeaderProps> = ({ onWhatsAppClick, onPhoneClick }) => {
           <div className="flex items-center space-x-2 flex-shrink-0">
             <img 
               src="/logo_vtc_val.png" 
-              alt="VTC Valenciennes" 
+              alt="Presta-Val-VTC" 
               className="h-16 sm:h-20 md:h-28 w-auto"
             />
             <div className="hidden sm:block">
-              <h1 className="text-lg sm:text-xl font-bold text-white">VTC-Valenciennes</h1>
+              <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white">Presta-Val-VTC</h1>
               <p className="text-xs sm:text-sm text-gray-400">Transport de personnes</p>
             </div>
           </div>

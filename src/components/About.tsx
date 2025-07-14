@@ -30,7 +30,7 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">À propos de VTC-Valenciennes</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">À propos de Presta-Val-VTC</h2>
             <p className="text-xl text-gray-300">
               Votre partenaire de confiance pour tous vos déplacements
             </p>
@@ -41,7 +41,7 @@ const About: React.FC = () => {
               <h3 className="text-2xl font-bold mb-6">Notre Histoire</h3>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  Créée avec la passion du service et de l'excellence, VTC-Valenciennes s'est imposée 
+                  Créée avec la passion du service et de l'excellence, Presta-Val-VTC s'est imposée 
                   comme une référence dans le transport de personnes dans la région valenciennoise.
                 </p>
                 <p>

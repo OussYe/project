@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({ onBookingClick, onServicesClick }) => {
             <span className="text-amber-500"> premium</span> à Valenciennes
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            VTC-Valenciennes est votre service de transport de personnes basé à Valenciennes, 
+            Presta-Val-VTC est votre service de transport de personnes basé à Valenciennes, 
             spécialisé dans les trajets vers les aéroports, les déplacements professionnels, 
             le shopping et le tourisme.
           </p>

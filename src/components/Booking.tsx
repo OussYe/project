@@ -55,7 +55,7 @@ const Booking: React.FC = () => {
     }
     
     // Create WhatsApp message
-    const message = `Nouvelle réservation VTC:
+    const message = `Nouvelle réservation Presta-Val-VTC:
 Nom: ${formData.name}
 Téléphone: ${formData.phone}
 Email: ${formData.email}
