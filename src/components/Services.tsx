@@ -13,7 +13,7 @@ const Services: React.FC = () => {
     {
       icon: MapPin,
       title: "Déplacements privés",
-      description: "Jusqu'à 2h autour de Valenciennes",
+      description: "Toutes destinations",
       features: ["Trajet personnalisé", "Confort garanti", "Tarification transparente"],
       color: "bg-green-600"
     },
